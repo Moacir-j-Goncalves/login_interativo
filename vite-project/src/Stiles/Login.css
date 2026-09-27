@@ -1,7 +1,42 @@
+ * {
 
-/* Reset */
-* {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
+}
+
+body {
+ width: 100%;
+ height: 100%;
+ 
+}
+
+form{
+  width: 300px;
+  margin: 200px auto;
+  padding: 15px;
+  text-align: center;
+  background-color: gray;
+  border-radius: 12px;
+}
+
+.Login-box{
+
+padding: 40px;
+ border-radius: 12px;
+}
+
+input{
+  display: block;
+  margin: 10px auto;
+  width: 235px;
+  height: 30px;
+}
+
+.Campo{
+  margin: 25px;
+  text-align: left;
+}
+
+.Login{
+  width: 235px;
+  height: 30px;
 }

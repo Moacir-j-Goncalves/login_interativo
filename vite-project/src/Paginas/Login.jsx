@@ -7,10 +7,11 @@ function Login() {
       <div className="Container-Login">
         <div className="Login-box">
 
-          <h1>Login</h1>
-          <p>Entre na sua conta</p>
+        
 
           <form>
+             <h1>Login</h1>
+          <p>Entre na sua conta</p>
 
             <div className="Campo">
               <label htmlFor="email">E-mail</label>
@@ -34,9 +35,7 @@ function Login() {
               />
             </div>
 
-            <button className="Login" type="button">
-              Login
-            </button>
+            <button className="Login" type="button">Login</button>
 
           </form>
 
