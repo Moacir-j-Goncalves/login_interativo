@@ -1,54 +1,47 @@
+
+import "../Stiles/Login.css";
+
 function Login() {
   return (
     <header>
-       <div className="Container-Login">
-            <div className="Login-box">
+      <div className="Container-Login">
+        <div className="Login-box">
 
-                <h1>login</h1>
-                <p>Entre na sua conta</p>
+          <h1>Login</h1>
+          <p>Entre na sua conta</p>
 
-                <form>
+          <form>
 
+            <div className="Campo">
+              <label htmlFor="email">E-mail</label>
 
-                    <div className="Campo">
-                           <label htmlFor="E-mail">E-mail</label>
-
-                            <input type="email"
-                            name="E-mail"
-                            id="email"
-                            placeholder="Digite seu E-mail" 
-                            
-                            />
-                        </div>
-
-                       <div>
-                        <label htmlFor="Senha">Senha</label>
-                        <input type="Senha" 
-                        name="Senha" 
-                        id="senha" 
-                        placeholder="Digite sua senha"/>
-
-
-                       </div>
-
-                    
-
-
-
-
-
-                </form>
-
-
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Digite seu E-mail"
+              />
             </div>
 
-        
+            <div className="Campo">
+              <label htmlFor="senha">Senha</label>
 
+              <input
+                type="password"
+                name="senha"
+                id="senha"
+                placeholder="Digite sua senha"
+              />
+            </div>
 
+            <button className="Login" type="button">
+              Login
+            </button>
 
+          </form>
 
-
-       </div>
+        </div>
+      </div>
     </header>
   );
 }
